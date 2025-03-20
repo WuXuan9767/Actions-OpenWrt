@@ -18,5 +18,10 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
-git clone https://github.com/EOYOHOO/UA2F.git package/UA2F
-git clone https://github.com/EOYOHOO/rkp-ipid.git package/rkp-ipid
+# git clone https://github.com/EOYOHOO/UA2F.git package/UA2F
+# git clone https://github.com/EOYOHOO/rkp-ipid.git package/rkp-ipid
+
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/luci-app-ddns-go
+git clone --depth=1 https://github.com/vernesong/OpenClash.git package/OpenClash
+mv -f files/mt7981b-cudy-tr3000-v1.dts target/linux/mediatek/dts/
