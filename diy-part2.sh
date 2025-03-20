@@ -24,4 +24,5 @@
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/luci-app-ddns-go
 git clone --depth=1 https://github.com/vernesong/OpenClash.git package/OpenClash
+git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 mv -f files/mt7981b-cudy-tr3000-v1.dts target/linux/mediatek/dts/
